@@ -1,4 +1,4 @@
-# hello_rpi_world
+# rpi_cross_compile_with_docker
 
 ## Description
 
