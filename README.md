@@ -1,8 +1,8 @@
-# rpi_cross_compile_with_docker
+# rpi crossc ompile with docker
 
 ## Description
 
-A brief description of the project.
+This project demonstrates cross-compiling an application using Docker for the Raspberry Pi family of boards.
 
 ## Prerequisites
 
