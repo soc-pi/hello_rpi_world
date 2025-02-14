@@ -1,31 +1,98 @@
 # hello_rpi_world
 
 ## Description
+
 A brief description of the project.
 
+## Prerequisites
+
+- Docker installed on your system
+- Make installed on your system
+
 ## Build
-To build the project, run the following commands:
+
+To build the project using Docker, run the following command:
+
 ```sh
-mkdir build
-cd build
-cmake ..
-make
+make build
 ```
 
 ## Run
-To run the project, execute the following command:
+
+To run the built binary, execute the following command:
+
 ```sh
-./hello_rpi_world
+make run
 ```
 
 ## Test
+
 To run the tests, execute the following command:
+
 ```sh
-ctest
+make test
 ```
 
 ## Lint
+
 To run cpplint, execute the following command:
+
 ```sh
-cpplint --recursive src include lib tests
+make lint
+```
+
+## Format
+
+To format the code using clang-format, execute the following command:
+
+```sh
+make format
+```
+
+## Clean
+
+To clean the build directory, execute the following command:
+
+```sh
+make clean
+```
+
+## Rebuild
+
+To clean and build the project, execute the following command:
+
+```sh
+make rebuild
+```
+
+## Docker Shell
+
+To open a shell inside the Docker container, execute the following command:
+
+```sh
+make docker-shell
+```
+
+## Docker Clean
+
+To clean the Docker environment, execute the following command:
+
+```sh
+make docker-clean
+```
+
+## Docker Test
+
+To run tests inside the Docker container, execute the following command:
+
+```sh
+make docker-test
+```
+
+## Help
+
+To display the available Makefile targets, execute the following command:
+
+```sh
+make help
 ```
